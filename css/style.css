@@ -60,6 +60,12 @@ li {
 
 /* GLOBAL-END */
 
+/* changings update */
+.solution-info-h {
+  color: white;
+  font-weight: 600;
+}
+
 /* font-family */
 @font-face {
   font-family: Anuphan-Bold;
@@ -870,7 +876,7 @@ h3::before {
   border-right: 1px solid #fce025;
   border-bottom: 1px solid #fce025;
   width: 350px;
-  height: 435px;
+  height: 566px;
 }
 .outer3 {
   position: relative;
@@ -878,12 +884,12 @@ h3::before {
 .outer3::after {
   content: "";
   position: absolute;
-  top: -32px;
+  top: -21px;
   left: 0;
   border-left: 1px solid #fce025;
   border-bottom: 1px solid #fce025;
   width: 350px;
-  height: 434px;
+  height: 562px;
   clip-path: polygon(0 0, 0 100%, 100% 100%);
 }
 .outer4 {
@@ -1849,16 +1855,16 @@ footer .lower-span::before {
     padding-top: 10px;
   }
   .outer1::after {
-    top: 47px;
+    top: 71px;
     width: 244px;
   }
   .outer2::after {
     width: 243px;
-    height: 378px;
+    height: 486px;
   }
   .outer3::after {
     width: 243px;
-    height: 377px;
+    height: 498px;
   }
   .card2::after {
     left: 423px;
@@ -1944,6 +1950,13 @@ footer .lower-span::before {
   }
   .banner-info p {
     font-size: 16px;
+    padding: 30px 0 0 0;
+  }
+   .banner-buttons {
+    padding-top: 30px;
+  }
+  .banner-info h1{
+    margin-top: 80px;
   }
   .banner-img {
     width: 300px;
@@ -2028,7 +2041,7 @@ footer .lower-span::before {
   }
   .architecture-cards {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     padding-top: 20px;
   }
   .architecture-section p {
@@ -2128,6 +2141,10 @@ footer .lower-span::before {
   }
   .outer-wrapper::after {
     width: 300px;
+  }
+  .solution-info h4 {
+    font-size: 12px;
+    color: red;
   }
   /* footer */
   .footer-boxes {
