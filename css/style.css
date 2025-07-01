@@ -56,6 +56,7 @@ li {
 .container {
   max-width: 1240px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 /* GLOBAL-END */
@@ -1257,7 +1258,7 @@ h4 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
-  padding-top: 170px;
+  padding-top: 36px;
   column-gap: 30px;
   row-gap: 90px;
   justify-self: center;
@@ -1380,6 +1381,13 @@ footer .lower-span::before {
 }
 .handle-link span {
   font-family: "Orbitron-Bold", sans-serif;
+  font-size: 14px;
+  color: #fce025;
+  text-align: start;
+  display: block;
+}
+.benifit-box span{
+ font-family: "Orbitron-Bold", sans-serif;
   font-size: 14px;
   color: #fce025;
   text-align: start;
@@ -2128,6 +2136,8 @@ footer .lower-span::before {
     top: -21%;
     transform: rotate(90deg);
   }
+
+  
   /* utility-section */
   .utility-boxes {
     grid-template-columns: repeat(1, 1fr);
@@ -2137,7 +2147,7 @@ footer .lower-span::before {
   .utility-benifits {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    padding-top: 110px;
+    padding-top: 26px;
   }
   .outer-wrapper::after {
     width: 300px;
@@ -2146,6 +2156,10 @@ footer .lower-span::before {
     font-size: 12px;
     color:white;
   }
+
+
+  /* dextoools */
+
   /* footer */
   .footer-boxes {
     grid-template-columns: repeat(1, 1fr);
